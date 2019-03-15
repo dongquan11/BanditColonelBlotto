@@ -1,6 +1,6 @@
 These numerical experiments are used to support the results in the paper: Dong Quan Vu, Patrick Loiseau, and Alonso Silva. Combinatorial Bandits for Sequential Learning in Colonel Blotto Games. Under review in 58th Conference on Decision and Control 2019.
 
-Contact author at quan_dong[dot]vu[at]nokia[dot]com
+Contact authors at quan_dong[dot]vu[at]nokia[dot]com
 
 
 Abstracts: The Colonel Blotto game is a renowned resource allocation problem with a long-standing literature in game theory (almost 100 years). However, its scope of application is still restricted by the lack of studies on the incompleteinformation situations where a learning model is needed. In this work, we propose and study a regret-minimization model where a learner repeatedly plays the Colonel Blotto game against several adversaries. At each time step, the learner distributes her budget of resources on a fixed number of battlefields to maximize the aggregate value of battlefields she wins; each battlefield being won if there is no adversary that has higher
