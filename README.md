@@ -1,7 +1,11 @@
-These numerical experiments, written in Python 3.6, are used to support the results in the paper: 
+- These numerical experiments, written in Python 3.6, are used to support the results in the paper: 
 "Dong Quan Vu, Patrick Loiseau, and Alonso Silva. Combinatorial Bandits for Sequential Learning in Colonel Blotto Games. Under review in 58th Conference on Decision and Control 2019."
+- Contact authors at quan_dong[dot]vu[at]nokia[dot]com
 
-Contact authors at quan_dong[dot]vu[at]nokia[dot]com
+
+Black box optimization for searching an improved exploration distribution can be found in the "Blackbox Exloration folder". It outputs the file explore.csv.
+The EdgeCB algorithm with exploration distribution taking input from explore.csv; outputs to output.csv.
+
 
 Abstracts: The Colonel Blotto game is a renowned resource allocation problem with a long-standing literature in game theory (almost 100 years). However, its scope of application is still restricted by the lack of studies on the incompleteinformation situations where a learning model is needed. In this work, we propose and study a regret-minimization model where a learner repeatedly plays the Colonel Blotto game against several adversaries. At each time step, the learner distributes her budget of resources on a fixed number of battlefields to maximize the aggregate value of battlefields she wins; each battlefield being won if there is no adversary that has higher
 allocation. We focus on the setting with minimal feedback—the bandit feedback. We first show that it can be modeled as a Path Planning problem. It is then possible to use the classical COMBAND algorithm to guarantee a sub-linear regret in terms of time horizon, but this entails two fundamental challenges: (i) the computation is inefficient due to the huge size of the action set, and (ii) the standard exploration distribution leads to a loose guarantee in practice. To address the first, we construct a modified algorithm that can be efficiently implemented by applying a dynamic programming technique called weight pushing; for the second, we propose methods optimizing the exploration distribution to improve the regret bound. Finally, we implement our proposed algorithm and perform numerical experiments that show the regret improvement in practice.
