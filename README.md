@@ -1,6 +1,6 @@
 - These numerical experiments, written in Python 3.6, are used to support the results in the paper: 
 "Dong Quan Vu, Patrick Loiseau, and Alonso Silva. Combinatorial Bandits for Sequential Learning in Colonel Blotto Games. Under review in 58th Conference on Decision and Control 2019."
-- Contact authors at quan_dong[dot]vu[at]nokia[dot]com
+- Contact authors at dongquan[dot]math[at]gmail[dot]com
 
 
 Black box optimization for searching an improved exploration distribution can be found in the "Blackbox Exloration folder". It outputs the file explore.csv.
